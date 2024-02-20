@@ -1,0 +1,84 @@
+.container{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card1{
+    max-width: 100%;
+    max-height: 800px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: transform 150ms ease-in box-shadow 0.2s linear;
+    background: rgb(189, 235, 221);
+    align-items: center;
+}
+
+.card1 h5{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    font-size: x-large;
+}
+
+.card__body{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.card__body span{
+    color: brown;
+    font-weight: 600;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    
+    
+}
+.card__footer_first{
+    width: 100%;
+}
+
+
+.card__footer{
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+}
+
+.card__footer__first label,
+.card__footer__second label,
+.card__footer__third label{
+    font-weight: bold;
+    color: rgb(17,17,50);
+}
+
+.card__extra{
+    text-align: center;
+    display: flexbox;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+.quality{
+    font-weight:bold;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-size: large;
+}
+
+.call_button{
+    padding-bottom: 20px;
+}
+
+.card__header b,h5{
+    color: black;
+}

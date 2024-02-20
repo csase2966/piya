@@ -1,0 +1,18 @@
+.enquiry_title{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.field{
+    padding: 20px;
+}
+
+.ui.form .field>label{
+    font-size: 20px;
+}
+
+.imageWP{
+    margin-left: 15px;
+    
+}

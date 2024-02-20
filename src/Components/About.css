@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1{
+    flex: 30%;
+    padding: 20px;
+    margin: 10px 2px 10px 2px;
+
+}
+
+.row1 p,h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media screen and (max-width :992px){
+
+    .column1{
+        flex: 33%;
+
+    }
+    
+}
+
+@media screen and (max-width :600px){
+
+    .row1{
+        flex-direction: column;
+        
+    }
+    
+}

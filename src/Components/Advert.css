@@ -1,0 +1,39 @@
+.container_adv{
+    background-color: rgb(231,231,245);
+    margin: 40px 0px 40px 0px;
+    max-width: 100%;
+}
+
+.card_outer_adv{
+    background-color: white;
+    max-width: 100%;
+}
+
+.card__extra_adv{
+    text-align: center;
+    display: flexbox;
+    background-color: rgb(40,40,45);
+    font-weight: bold;
+}
+
+.title_choose_adv{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.title_why_adv{
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(218,98,212);
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.desc_adv{
+    
+    font-size: large;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}

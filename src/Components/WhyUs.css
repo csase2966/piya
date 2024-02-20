@@ -1,0 +1,36 @@
+.card_outer{
+    background-color: white;
+    max-width: 100%;
+}
+
+.card__extra{
+    text-align: center;
+    display: flexbox;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.title_choose{
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.tech{
+    height:70px;
+    padding-top: 10px;
+}
+
+.title_why{
+    font-weight: bold;
+    font-size: large;
+    color: brown;
+}
+
+.emoj{
+    font-size:50px;
+}
+
+.desc{
+    padding: 10px 10px 10px 10px;
+}

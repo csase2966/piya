@@ -1,0 +1,41 @@
+.section_padding{
+    padding:40px 40px;
+}
+
+.footer{
+    background-color:rgb(20,6,57);
+    margin-top: 10px;
+}
+
+.sb_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.sb_footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+.social_media{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.address div{
+    font-size:10px;
+    padding-top: 1px;
+
+}
+
+.sb_footer-links-div p{
+    padding-top:15px;
+}
