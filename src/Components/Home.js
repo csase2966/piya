@@ -2,7 +2,7 @@
 import './Home.css';
 import React from 'react';
 import {Brands} from './Brands';
-
+import first from '../images/first.jpg';
 import Image from 'react-bootstrap/Image';
 
 
@@ -10,7 +10,12 @@ export const Home=()=> {
   return (
     <div>
         <div className='containerImage'>
-            <Image  alt='LG' loading='lazy' class='ui centered large image'/>
+                        
+            <div className="text-center">
+                <img src={first} class="rounded" alt="image" width='100%'/>
+            </div>
+                        
+                        
         </div>
         <div className='bestAC'>
             Best AC Repair Sevice in PCMC and Pune

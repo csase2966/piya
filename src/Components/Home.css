@@ -21,7 +21,11 @@
     margin-bottom: 10px;
     max-width: 100%;
 }
-
+.containerImage{
+    width: 100%;
+    margin: 5px;
+    
+}
 .image{
     margin: 10px 2px 10px 2px;
     object-fit: cover;

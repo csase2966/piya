@@ -12,7 +12,7 @@ export const Contact = () => {
 
                     <div className='social_media'>
                         <Button color='youtube'>
-                            <Icon name='google'>Mail</Icon>
+                            <Icon name='google'> Mail</Icon>
                         </Button>
                         <p>eagle.racsystems2020@gmail.com</p>
                     </div>
@@ -22,9 +22,9 @@ export const Contact = () => {
 
                     <div className='social_media'>
                         <Button color='facebook'>
-                            <Icon name='phone'>Phone No</Icon>
+                            <Icon name='phone' width='auto'> Phone No</Icon>
                         </Button>
-                        <p>8856935638 / 7350235050</p>
+                        <p> 8856935638 / 7350235050</p>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ export const Contact = () => {
 
                     <div className='social_media'>
                         <Button color='instagram'>
-                            <Icon name='map marker alternate'>Address</Icon>
+                            <Icon name='map marker alternate'> Address</Icon>
                         </Button>
                         <div className='address'>
                             <div>Office No-6, Bhosale Building,</div>
