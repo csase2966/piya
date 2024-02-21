@@ -1,0 +1,22 @@
+.all_details .note_ser{
+    color: brown;
+    text-align: center;
+}
+
+.all_details div{
+    background-color: white;
+    text-align: left;
+    padding: 1px;
+}
+
+.all_details .mid_name{
+    padding-left: 20%;
+    color: rgb(83,106,196);
+    font-size: large;
+}
+
+.all_details .mid_name1{
+    text-align: center;
+    color: rgb(83,106,196);
+    font-size: large;
+}

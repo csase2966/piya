@@ -1,0 +1,43 @@
+.card_outer_ser{
+    background-color: rgb(246,242,242);
+    max-width: 100%;
+}
+
+.card_start{
+    background-color: rgb(231,231,245);
+    border: 1cm black;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+.card_extra_ser{
+    text-align: center;
+    display: flexbox;
+    background-color: white;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+}
+
+.title_choose_ser{
+    font-weight: bold;
+    font-size: large;
+}
+
+.tech_serv{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+
+.include_ser div{
+    padding: 5px;
+}
+
+.btn_ser{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.btn_ser i,b{
+    color: rgb(7,7,7);
+}

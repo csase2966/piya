@@ -5,6 +5,7 @@ import {MoreACServices} from './MoreDetails/MoreACServices';
 import {MoreGasCharge} from './MoreDetails/MoreGasCharge';
 import {MoreRefRepair} from './MoreDetails/MoreRefRepair';
 import React, { useState } from 'react';
+import './Services.css';
 
 export const Services = () => {
 
@@ -103,13 +104,13 @@ export const Services = () => {
 
                 <div className='card_extra_ser'>
                     <div>
-                        <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                        <img  className='tech_serv' alt='Refrigerator Repair' loading='lazy'/>
                     </div>
 
                     <div className='include_ser'>
                         <button onClick={onClickButton5} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>AC Repair</b>
+                            <b className='title_choose_ser'>Refrigerator Repair</b>
                         </button>
                         <div>
                             {openInc5 ? <MoreRefRepair/> : ""}

@@ -5,7 +5,8 @@ import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { Services } from "./Services";
-
+import logo from '../images/logo1.jpg'
+import Image from 'react-bootstrap/Image';
 import './Header.css';
 
 
@@ -29,8 +30,9 @@ const Header=()=> {
     return(
         <div className="container1">
             <nav>
-                <Link to='/' className="title">Logo</Link>
-
+                <div className="logo">
+                <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
+                </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
                     <span></span>
                     <span></span>
