@@ -30,8 +30,12 @@ const Header=()=> {
     return(
         <div className="container1">
             <nav>
+                <div className="image_name">
                 <div className="logo">
                 <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
+                
+                </div>
+                <div className="title_name">Eagle Refrigeration</div>
                 </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
                     <span></span>
@@ -42,7 +46,7 @@ const Header=()=> {
                 <ul className={menuOpen ? "open" : ""}>
                     <li onClick={()=> scrollToSection(home)} className="link">Home</li>
                     <li onClick={()=> scrollToSection(aboutus)} className="link">AboutUs</li>
-                    <li onClick={()=> scrollToSection(aboutus)} className="link">Services</li>
+                    <li onClick={()=> scrollToSection(services)} className="link">Services</li>
                     <li onClick={()=> scrollToSection(enquireNow)} className="link">EnquireNow</li>
 
                 </ul>

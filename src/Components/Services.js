@@ -6,6 +6,7 @@ import {MoreGasCharge} from './MoreDetails/MoreGasCharge';
 import {MoreRefRepair} from './MoreDetails/MoreRefRepair';
 import React, { useState } from 'react';
 import './Services.css';
+import v2 from '../images/v2.mp4';
 
 export const Services = () => {
 
@@ -38,8 +39,9 @@ export const Services = () => {
             <div className='card_start'>
 
                 <div className='card_extra_ser'>
-                    <div>
-                        <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                    <div >
+                        {/* <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/> */}
+                        <video src={v2} width="98%" height="300" controls="controls" autoplay='true' />
                     </div>
 
                     <div className='include_ser'>
@@ -56,7 +58,8 @@ export const Services = () => {
 
                 <div className='card_extra_ser'>
                     <div>
-                        <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                        {/* <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/> */}
+                        <video src={v2} width="98%" height="300" controls="controls" autoplay />
                     </div>
 
                     <div className='include_ser'>
@@ -73,6 +76,7 @@ export const Services = () => {
                 <div className='card_extra_ser'>
                     <div>
                         <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                        
                     </div>
 
                     <div className='include_ser'>

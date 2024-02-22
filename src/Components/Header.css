@@ -20,6 +20,17 @@ nav{
     
     margin: 5px 0px 5px 10px;
 }
+.image_name{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title_name{
+    padding-left: 20px;
+}
 nav.title{
     font-size: 1.5rem;
     margin: 1.5rem;

@@ -13,6 +13,7 @@ export const Home=()=> {
                         
             <div className="text-center">
                 <img src={first} class="rounded" alt="image" width='100%'/>
+                
             </div>
                         
                         
