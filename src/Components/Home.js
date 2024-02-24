@@ -18,10 +18,10 @@ export const Home=()=> {
                         
                         
         </div>
-        <div className='bestAC'>
+        <h3 className='bestAC'>
             Best AC Repair Sevice in PCMC and Pune
 
-        </div>
+        </h3>
 
         <div class='container'>
             <div className='first_name'>

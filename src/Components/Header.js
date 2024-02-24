@@ -13,7 +13,7 @@ import './Header.css';
 const EnquireNow = React.lazy(() => import('./EnquireNow'));
 
 const Header=()=> {
-    const [menuOpen,setMenuOpen] = useState(true);
+    const [menuOpen,setMenuOpen] = useState(false);
     const aboutus = useRef(null);
     const enquireNow=useRef(null);
     const home= useRef(null);
