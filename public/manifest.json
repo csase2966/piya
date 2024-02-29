@@ -1,5 +1,6 @@
 {
-  
+"short-name":"Cool App",
+  "name":"Eagle Refrigeration",
   "icons": [
     {
       "src": "favicon.ico",
