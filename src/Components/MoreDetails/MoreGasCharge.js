@@ -11,7 +11,7 @@ export const MoreGasCharge = () => {
         <div className='more'>
             <div className='mid_name'>What's Included</div>
             <div><i className='caret right icon'></i>
-                Get 6 months Warrenty
+                Get upto 6 months Warrenty
             </div>
             
         
@@ -35,21 +35,23 @@ export const MoreGasCharge = () => {
         <div className='more'>
             <div className='mid_name'>How it Works</div>
             <div><i className='caret right icon'></i>
-                Get 6 months Warrenty
+                Voltage, Ampere, Pressure and other safty checks.
             </div>
             <div><i className='caret right icon'></i>
-                Adjustment of inspection fee (Rs. 399) in invoice, if
-                Eagle Refrigeration repair services is availed.
+                Leak Identification and Fixing-
+                Leak Testing with nitrogen, compressed air and soap solution fixing theleak by brazzing and rechecking.
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Gas refill-
+                Filling of the Gas by weight | back pressure.
             </div>
             <div><i className='caret right icon'></i>
-                Adjustment of inspection fee (Rs. 399) in invoice, if
-                Eagle Refrigeration repair services is availed.
+                Post-Service cleanup-
+                Post service cleanup of the AC and service area.
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Final checks-
+                Technicians checks ATP Pressure, air flow, Temp noise level in the end to ensure proper functioing.
             </div>
           </div>
 

@@ -13,27 +13,31 @@ export const MoreACServices = () => {
         <div className='more'>
             <div className='mid_name'>How it Works?</div>
             <div><i className='caret right icon'></i>
-                Pre-service Checks
+                Pre-service Checks- 
+                Detailed inspection including Gas check to identify repairs.
             </div>
             <div><i className='caret right icon'></i>
-                Indoor unit Cleaning
+                Indoor unit Cleaning- 
+                Deep cleaning of filters, coil, fins, drain trays with foam and Powerjet after covering the AC.
             </div>
             <div><i className='caret right icon'></i>
-                Outdoor unit Cleaning
+                Outdoor unit Cleaning- 
+                Opening of the unit (If easily accessible) for thorough cleaning with a powerjet.
             </div>
             <div><i className='caret right icon'></i>
-                Mess Free Experience
+                Mess Free Experience- 
+                AC jacked for spill prevention during service and post-service clean up of the work area.
             </div>
             <div><i className='caret right icon'></i>
-                Final Checks
+                Final Checks- 
+                Technicians ensures propr functions by cheking pipe Blockage anddrain tray leakage at the end of service.
             </div>
         
 
             <div className='note_ser'>
             
                 Note-
-                Ladder is not carried by Technicians.
-                Please manage if AC is at a height.
+                Our Technicians do not carry a ladder please arrange for one if the AC is at a height.
             
             </div>
         </div>

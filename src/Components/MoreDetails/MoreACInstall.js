@@ -12,34 +12,36 @@ export const MoreACInstall = () => {
         <div className='moreAC'>
             <div className='mid_name'>What's Included</div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Drilling wiring Connections, Installation of the units (Indoor and Outdoor) and Pipe Fixes.
             </div>
             <div><i className='caret right icon'></i>
-                Adjustment of inspection fee (Rs. 399) in invoice, if
-                Eagle Refrigeration repair services is availed.
+                Gas check to Prevent leakages.
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Cooling rate and device checks followed by clea up of service area.
             </div>
-            <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
-            </div>
+            
         </div>
 
         <div className='moreAC'>
-            <div className='mid_name'>What's Included</div>
+            <div className='mid_name'>Excluded</div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Uninstallation of the existing AC.
             </div>
             <div><i className='caret right icon'></i>
-                Adjustment of inspection fee (Rs. 399) in invoice, if
-                Eagle Refrigeration repair services is availed.
+                Spare parts like Copper wires and Pipes (extra charges as per rate card)
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Stands and Fastner (For fixing stand)
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Masonary / Woodwork
+            </div>
+            <div><i className='caret right icon'></i>
+                Pop filling
+            </div>
+            <div><i className='caret right icon'></i>
+                We do not carry a ladder, please arrange one Before the service.
             </div>
         </div>
     </div>

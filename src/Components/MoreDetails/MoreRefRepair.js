@@ -5,16 +5,16 @@ export const MoreRefRepair = () => {
     <div className='all_details'>
         <div className='title_why_ser'>
             <div><i className='caret right icon'></i>Non-Inverter Refrigerator Check up</div>
-            <div><i className='caret right icon'></i>Non-Inverter Refrigerator Check up</div>
+            <div><i className='caret right icon'></i>Inverter Refrigerator Check up</div>
             
         </div>
 
-        <div className='more'>
+        {/* <div className='more'>
             <div className='mid_name'>What's Included</div>
             <div><i className='caret right icon'></i>
                 Get 6 months Warrenty
             </div>
-        </div>
+        </div> */}
             
         
         <div className='more'>

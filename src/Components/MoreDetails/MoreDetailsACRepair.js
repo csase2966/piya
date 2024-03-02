@@ -13,21 +13,19 @@ export const MoreDetailsACRepair = () => {
         <div className='more'>
             <div className='mid_name'>What's Included</div>
             <div><i className='caret right icon'></i>
-                Get 6 months Warrenty
+                Get upto 6 months Warrenty
             </div>
+            
+            
             <div><i className='caret right icon'></i>
                 Adjustment of inspection fee (Rs. 399) in invoice, if
                 Eagle Refrigeration repair services is availed.
             </div>
             <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                AC repair using high-quality spare parts and tools.
             </div>
             <div><i className='caret right icon'></i>
-                Adjustment of inspection fee (Rs. 399) in invoice, if
-                Eagle Refrigeration repair services is availed.
-            </div>
-            <div><i className='caret right icon'></i>
-                Get upto 6 months warrenty.
+                Final checks and clean up.
             </div>
         
 

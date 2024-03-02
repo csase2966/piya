@@ -98,7 +98,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton4} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>AC Repair</b>
+                            <b className='title_choose_ser'>Gas Charging</b>
                         </button>
                         <div>
                             {openInc4 ? <MoreGasCharge/> : ""}
