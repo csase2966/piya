@@ -5,6 +5,7 @@ import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { Services } from "./Services";
+import { Review } from "./Review/Review";
 import logo from '../images/logo1.jpg'
 import Image from 'react-bootstrap/Image';
 import './Header.css';
@@ -19,6 +20,7 @@ const Header=()=> {
     const home= useRef(null);
     const contact=useRef(null);
     const services=useRef(null);
+    const reviews = useRef(null);
 
     const scrollToSection = (elementRef)=>{
         window.scrollTo({
@@ -48,6 +50,7 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(aboutus)} className="link">AboutUs</li>
                     <li onClick={()=> scrollToSection(services)} className="link">Services</li>
                     <li onClick={()=> scrollToSection(enquireNow)} className="link">EnquireNow</li>
+                    <li onClick={()=> scrollToSection(reviews)} className="link">Reviews</li>
 
                 </ul>
             </nav>
@@ -68,8 +71,14 @@ const Header=()=> {
 
             
 
+            
+
             <div>
                 <div ref={aboutus} className="aboutus"><About/></div>
+            </div>
+
+            <div>
+                <div ref={reviews} className="contactus"><Review/></div>
             </div>
 
             <div>
