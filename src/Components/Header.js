@@ -77,9 +77,9 @@ const Header=()=> {
                 <div ref={aboutus} className="aboutus"><About/></div>
             </div>
 
-            // <div>
-            //     <div ref={reviews} className="contactus"><Review/></div>
-            // </div>
+            {/* <div>
+                <div ref={reviews} className="contactus"><Review/></div>
+            </div> */}
 
             <div>
                 <div ref={contact} className="contactus"><Contact/></div>
