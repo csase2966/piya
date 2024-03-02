@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/piya/static/css/main.cdaafeea.css",
-    "main.js": "/piya/static/js/main.91afd891.js",
-    "static/css/793.520697a3.chunk.css": "/piya/static/css/793.520697a3.chunk.css",
-    "static/js/793.e01183fe.chunk.js": "/piya/static/js/793.e01183fe.chunk.js",
-    "static/media/v2.mp4": "/piya/static/media/v2.04f9e40b11836bbc3147.mp4",
-    "static/media/logo1.jpg": "/piya/static/media/logo1.cd9310eb0cb78ee70312.jpg",
-    "static/media/first.jpg": "/piya/static/media/first.a982079ddc7d3ea523f3.jpg",
-    "static/media/tech.jpg": "/piya/static/media/tech.6be1c6c53893ff22e991.jpg",
-    "static/media/voltas.jpg": "/piya/static/media/voltas.23ef5b65a9093b5709e3.jpg",
-    "static/media/blue_star.jpg": "/piya/static/media/blue_star.7c46d71945063f93cbb0.jpg",
-    "static/media/wp.jpg": "/piya/static/media/wp.81016bad3a51dd52e445.jpg",
-    "static/media/ac_f.jpg": "/piya/static/media/ac_f.7615ff31c8add8809c9c.jpg",
-    "index.html": "/piya/index.html",
-    "main.cdaafeea.css.map": "/piya/static/css/main.cdaafeea.css.map",
-    "main.91afd891.js.map": "/piya/static/js/main.91afd891.js.map",
-    "793.520697a3.chunk.css.map": "/piya/static/css/793.520697a3.chunk.css.map",
-    "793.e01183fe.chunk.js.map": "/piya/static/js/793.e01183fe.chunk.js.map"
+    "main.css": "./static/css/main.cdaafeea.css",
+    "main.js": "./static/js/main.fd95330e.js",
+    "static/css/793.520697a3.chunk.css": "./static/css/793.520697a3.chunk.css",
+    "static/js/793.e01183fe.chunk.js": "./static/js/793.e01183fe.chunk.js",
+    "static/media/v2.mp4": "./static/media/v2.04f9e40b11836bbc3147.mp4",
+    "static/media/logo1.jpg": "./static/media/logo1.cd9310eb0cb78ee70312.jpg",
+    "static/media/first.jpg": "./static/media/first.a982079ddc7d3ea523f3.jpg",
+    "static/media/tech.jpg": "./static/media/tech.6be1c6c53893ff22e991.jpg",
+    "static/media/voltas.jpg": "./static/media/voltas.23ef5b65a9093b5709e3.jpg",
+    "static/media/blue_star.jpg": "./static/media/blue_star.7c46d71945063f93cbb0.jpg",
+    "static/media/wp.jpg": "./static/media/wp.81016bad3a51dd52e445.jpg",
+    "static/media/ac_f.jpg": "./static/media/ac_f.7615ff31c8add8809c9c.jpg",
+    "index.html": "./index.html",
+    "main.cdaafeea.css.map": "./static/css/main.cdaafeea.css.map",
+    "main.fd95330e.js.map": "./static/js/main.fd95330e.js.map",
+    "793.520697a3.chunk.css.map": "./static/css/793.520697a3.chunk.css.map",
+    "793.e01183fe.chunk.js.map": "./static/js/793.e01183fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdaafeea.css",
-    "static/js/main.91afd891.js"
+    "static/js/main.fd95330e.js"
   ]
 }
