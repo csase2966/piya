@@ -75,7 +75,7 @@ export const Services = () => {
 
                 <div className='card_extra_ser'>
                     <div>
-                        <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                        {/* <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/> */}
                         
                     </div>
 
@@ -92,7 +92,7 @@ export const Services = () => {
 
                 <div className='card_extra_ser'>
                     <div>
-                        <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/>
+                        {/* <img  className='tech_serv' alt='AC Repair photo' loading='lazy'/> */}
                     </div>
 
                     <div className='include_ser'>
@@ -108,7 +108,7 @@ export const Services = () => {
 
                 <div className='card_extra_ser'>
                     <div>
-                        <img  className='tech_serv' alt='Refrigerator Repair' loading='lazy'/>
+                        {/* <img  className='tech_serv' alt='Refrigerator Repair' loading='lazy'/> */}
                     </div>
 
                     <div className='include_ser'>

@@ -37,7 +37,7 @@ const Header=()=> {
                 <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
                 
                 </div>
-                <div className="title_name">Eagle Refrigeration</div>
+                <div className="title_name">Eagle Refrigeration, Pune</div>
                 </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
                     <span></span>
