@@ -50,7 +50,7 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(aboutus)} className="link">AboutUs</li>
                     <li onClick={()=> scrollToSection(services)} className="link">Services</li>
                     <li onClick={()=> scrollToSection(enquireNow)} className="link">EnquireNow</li>
-                    <li onClick={()=> scrollToSection(reviews)} className="link">Reviews</li>
+                    {/* <li onClick={()=> scrollToSection(reviews)} className="link">Reviews</li> */}
 
                 </ul>
             </nav>
