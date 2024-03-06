@@ -1,0 +1,45 @@
+.summer{
+    color:blue;
+    padding:10px 0px 0px 0px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.btn_ser_rate{
+    background-color: rgb(215, 187, 187);
+    text-align: left;
+}
+.card_outer_ser_rate{
+    background-color: rgb(224, 60, 60);
+    padding: 10px 2px 1px ;
+    /* padding-top: 10px; */
+}
+
+.rate_title{
+    /* background-color: black; */
+    color: white;
+    /* padding: 8px 0px 8px 0px; */
+}
+.title_choose_ser_rate{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    
+}
+
+.thead-dark{
+    background-color: rgb(141, 147, 146);
+    color: rgb(51, 54, 53);
+}
+i{
+    color: black;
+}
+.labur{
+    color: green;
+}
+
+.table{
+    background-color: white;
+    color: black;
+}
