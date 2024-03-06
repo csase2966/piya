@@ -53,14 +53,14 @@ export const Brands = () => {
             
 
             <div className='quality'>
-                Quality Assured Services Doorstep repair within 45 mins
+                Quality Assured Services Doorstep repair within 30 mins
             </div>
 
             <div>
                 <div className='call_button'>
                     <a href='tel:8856935638' className='btn btn-success'>
                         <i class='phone volume icon'></i>
-                        Call Now on 8856935638
+                         Call- 8856935638
                     </a>
                     <br/>
                     
@@ -71,7 +71,7 @@ export const Brands = () => {
                     
                     <a href='tel:7350235050' className='btn btn-success'>
                         <i class='phone volume icon'></i>
-                        Call Now on 7350235050
+                         Call - 7350235050
                     </a>
                 </div>
             </div>

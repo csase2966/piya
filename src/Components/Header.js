@@ -6,6 +6,7 @@ import { About } from "./About";
 import { Contact } from "./Contact";
 import { Services } from "./Services";
 import { Review } from "./Review/Review";
+import { RateCard } from "./RateCard/RaateCard";
 import logo from '../images/logo1.jpg'
 import Image from 'react-bootstrap/Image';
 import './Header.css';
@@ -20,7 +21,8 @@ const Header=()=> {
     const home= useRef(null);
     const contact=useRef(null);
     const services=useRef(null);
-    const reviews = useRef(null);
+    // const reviews = useRef(null);
+    const ratecard = useRef(null);
 
     const scrollToSection = (elementRef)=>{
         window.scrollTo({
@@ -40,9 +42,9 @@ const Header=()=> {
                 <div className="title_name">Eagle Refrigeration, Pune</div>
                 </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span color="black"></span>
+                    <span color="black"></span>
+                    <span color="black"></span>
                 </div>
 
                 <ul className={menuOpen ? "open" : ""}>
@@ -50,7 +52,7 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(aboutus)} className="link">AboutUs</li>
                     <li onClick={()=> scrollToSection(services)} className="link">Services</li>
                     <li onClick={()=> scrollToSection(enquireNow)} className="link">EnquireNow</li>
-                    {/* <li onClick={()=> scrollToSection(reviews)} className="link">Reviews</li> */}
+                    {/* <li onClick={()=> scrollToSection(ratecard)} className="link">Rate-Card</li> */}
 
                 </ul>
             </nav>
@@ -69,7 +71,9 @@ const Header=()=> {
                 <div ref={services} className="services"><Services/></div>
             </div>
 
-            
+            <div>
+                <div ref={ratecard} className="services"><RateCard/></div>
+            </div>
 
             
 
