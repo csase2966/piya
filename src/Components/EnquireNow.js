@@ -24,8 +24,8 @@ import { useState } from 'react';
         e.preventDefault();
         // console.log(fullName +" "+mobileNumber);
         let number=7350235050;
-        let url = `https://web.whatsapp.com/send?phone=${number}`;
-        url+=`&name=${encodeURI(fullName)}&mobile=${encodeURI(mobileNumber)}&app_absent=0`;
+        // let url = `https://web.whatsapp.com/send?phone=${number}`;
+        let url=`http://wa.me//7350235050?text=Name=${encodeURI(fullName)},Contact Number=${encodeURI(mobileNumber)}&app_absent=0`;
         // console.log(url);
         window.open(url);
 
