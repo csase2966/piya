@@ -171,7 +171,7 @@ export const RateDetails = () => {
         <div className='rate_title'>
             <div onClick={onClickButton1} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>1. Service    </b>
+                <b className='title_choose_ser_rate'>1. Services    </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
@@ -214,7 +214,7 @@ export const RateDetails = () => {
         <div className='rate_title'>
             <div onClick={onClickButton2} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>2. Installation  </b>
+                <b className='title_choose_ser_rate'>2. Installations  </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
@@ -260,7 +260,7 @@ export const RateDetails = () => {
         <div className='rate_title'>
             <div onClick={onClickButton3} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>1. Service    </b>
+                <b className='title_choose_ser_rate'>1. Services    </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
