@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 
 export const Home=()=> {
   return (
-    <div>
+    <div >
         <div className='containerImage'>
                         
             <div className="text-center">

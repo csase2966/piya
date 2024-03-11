@@ -4,8 +4,9 @@ import tech from '../images/tech.jpg';
 
 export const WhyUs = () => {
   return (
-    <div className='container'>
-        <div className='card_outer'>
+    <div >
+    <div className='container start'>
+        <div className='card_outer '>
             <div className='card__extra'>
                 <div className='title_choose'>
                     Why Choose Us 
@@ -63,6 +64,7 @@ export const WhyUs = () => {
 
 
         </div>
+    </div>
     </div>
   )
 }

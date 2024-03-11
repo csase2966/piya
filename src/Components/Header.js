@@ -32,7 +32,7 @@ const Header=()=> {
     }
 
     return(
-        <div className="container1">
+        <div className="container1" >
             <nav>
                 <div className="image_name">
                 <div className="logo">
@@ -49,10 +49,11 @@ const Header=()=> {
 
                 <ul className={menuOpen ? "open" : ""}>
                     <li onClick={()=> scrollToSection(home)} className="link">Home</li>
-                    <li onClick={()=> scrollToSection(aboutus)} className="link">AboutUs</li>
                     <li onClick={()=> scrollToSection(services)} className="link">Services</li>
-                    <li onClick={()=> scrollToSection(enquireNow)} className="link">EnquireNow</li>
+                    <li onClick={()=> scrollToSection(enquireNow)} className="link">Enquiry</li>
                     {/* <li onClick={()=> scrollToSection(ratecard)} className="link">Rate-Card</li> */}
+                    <li onClick={()=> scrollToSection(aboutus)} className="link">About Us</li>
+                    
 
                 </ul>
             </nav>

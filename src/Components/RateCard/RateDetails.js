@@ -20,59 +20,45 @@ export const RateDetails = () => {
 
     var heading = ["#", "Description", "Service Charges"];
     var body1 = [
+            
             {
-            "Description": "Install",
-             "charges":"Rs. 2499"
+                "Description": " Wet AC Service (Window)",
+                 "charges":"Rs. 500"
             },
             {
-                "Description": "Uninstall",
-                 "charges":"Rs. 999"
+                "Description": " Wet AC Service (Split)",
+                 "charges":"Rs. 500"
             },
             {
-                "Description": "1 meter Copper Pipe set with insulation Wire",
-                 "charges":"Rs. 900"
-            },
-            {
-                "Description": "Split AC wall stand",
-                 "charges":"Rs. 750"
-            },
-            {
-                "Description": "Outdoor unit re-installed",
-                 "charges":"Rs. 799"
-            },
-            {
-                "Description": "Indoor unit re-installed",
-                 "charges":"Rs. 699"
-            },
-            {
-                "Description": "Drain Pipe 1 meter",
-                 "charges":"Rs. 100"
+                "Description": "Gas Chargeing",
+                 "charges":"Rs. 2200"
+                
             },
 
             {
-                "Description": "Fastner Compelete Set",
-                 "charges":"Rs. 200"
+                "Description": "PCB Repair",
+                 "charges":"Rs. 1500"
             },
             {
-                "Description": "Floor Stand",
-                 "charges":"Rs. 550"
-            },
-            {
-                "Description": "Universal back plate",
+                "Description": "Dry Service",
                  "charges":"Rs. 300"
             },
             {
-                "Description": "Power Jet AC service (Window)",
-                 "charges":"Rs. 449"
+                "Description": "Noise Issue Repair",
+                 "charges":"    Rs. 600  (Labour Charges)"
             },
             {
-                "Description": "Power Jet AC service (Split)",
-                 "charges":"Rs. 499"
+                "Description": "Bad Smell Issue Repair",
+                 "charges":"    Rs. 600  (Labour Charges)"
             },
             {
-                "Description": "Service lite",
-                 "charges":"Rs. 449"
+                "Description": "AC Power ON Issue",
+                 "charges":"    Rs. 450 (Labour Charges)  "
             },
+
+        
+            
+            
             
             
         ];
@@ -80,46 +66,96 @@ export const RateDetails = () => {
 
 
         var body2 = [
+            
             {
-            "Description": "Fan motor - Split AC ",
-             "charges":"   Rs. 1800 "
-            },
-            {
-                "Description": "Blower Motor - Split AC",
-                 "charges":"   Rs. 2200 "
-            },
-            {
-                "Description": "Blower replaced ",
-                 "charges":"    Rs. 1100 "
-            },
-            {
-                "Description": "Replace Flap/Swing Motor",
-                 "charges":"    Rs. 400 "
-            },
-            {
-                "Description": "Motor Bearing Change",
-                 "charges":"    Rs. 1000  "
-            },
-            {
-                "Description": "Fan motor Window AC",
-                 "charges":"     Rs. 2600 "
-            },
-            {
-                "Description": "Noise issue Repair",
-                 "charges":"    Rs. 0  "
-            }
-        ];
+                "Description": "Install",
+                 "charges":"Rs. 1400"
+                },
+                {
+                    "Description": "Uninstall",
+                     "charges":"Rs. 800"
+                },
+                {
+                    "Description": "1 meter Copper Pipe set with insulation Wire",
+                     "charges":"Rs. 850"
+                },
+    
+                
+    
+                {
+                    "Description": "Split AC wall stand",
+                     "charges":"Rs. 650"
+                },
+                {
+                    "Description": "Outdoor unit re-installed",
+                     "charges":"Rs. 700"
+                },
+                {
+                    "Description": "Indoor unit re-installed",
+                     "charges":"Rs. 700"
+                },
+                {
+                    "Description": "Drain Pipe 1 meter",
+                     "charges":"Rs. 100"
+                },
+    
+                
+                {
+                    "Description": "Floor Stand",
+                     "charges":"Rs. 500"
+                },
+                {
+                    "Description": "Universal back plate",
+                     "charges":"Rs. 300"
+                },
+                {
+                    "Description": "Core Cut",
+                     "charges":"Rs. 90/inch"
+                },
+            
+           
+        ]
+
 
 
         var body3 = [
+            
             {
-            "Description": "Gas Chargeing",
-             "charges":"Rs. 2500"
-            },
-            {
-                "Description": "Replacement Compressor (1 ton)",
-                 "charges":"Rs. 4000"
-            },
+                "Description": "Service",
+                 "charges":"Rs. 450"
+                },
+                {
+                    "Description": "Bad Smell",
+                     "charges":"Rs. 450"
+                },
+                {
+                    "Description": "Gas Charge",
+                     "charges":"Rs. 1500"
+                },
+    
+                {
+                    "Description": "Power ON Issue",
+                     "charges":"Rs. 2200"
+                    
+                },
+    
+                {
+                    "Description": "No Cooling",
+                     "charges":"Rs. 1500"
+                },
+    
+                {
+                    "Description": "Water Leak",
+                     "charges":"Rs. 650"
+                },
+                {
+                    "Description": "PCB Repair",
+                     "charges":"Rs. 700"
+                },
+                
+    
+                
+                
            
         ]
 
@@ -128,11 +164,14 @@ export const RateDetails = () => {
   return (
     <div className='all_details_card'>
         {/* <div className='rate_title'></div> */}
+        <div className='types'>
+            AC
+        </div>
 
         <div className='rate_title'>
             <div onClick={onClickButton1} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>1. Service and Installation  </b>
+                <b className='title_choose_ser_rate'>1. Service    </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
@@ -175,13 +214,13 @@ export const RateDetails = () => {
         <div className='rate_title'>
             <div onClick={onClickButton2} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>2. Fan Motors  </b>
+                <b className='title_choose_ser_rate'>2. Installation  </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
                 
                 {openInc2 ? <div>
-                <div className='labur'>Laour Charges are capped at Rs. 499 per appliance</div>
+                {/* <div className='labur'>Laour Charges are capped at Rs. 499 per appliance</div> */}
                 
         <table class="table">
         <thead className="thead-dark">
@@ -213,14 +252,15 @@ export const RateDetails = () => {
             </div>
         </div>
 
-
-
+        <div className='types'>
+            Fridge / Refrigerator
+        </div>
 
 
         <div className='rate_title'>
             <div onClick={onClickButton3} className='btn_ser_rate'>
                 
-                <b className='title_choose_ser_rate'>3. Gas Charging  </b>
+                <b className='title_choose_ser_rate'>1. Service    </b>
                 <i className='caret down icon'></i>
             </div>
             <div>
@@ -238,7 +278,7 @@ export const RateDetails = () => {
         <tbody>
             
             
-            {body3.map((val,i) => (
+            {body1.map((val,i) => (
                 <tr>
                 <td >{(i+1)*1}</td>
                 <td >{val.Description}</td>
@@ -254,8 +294,9 @@ export const RateDetails = () => {
                 : ""}
             </div>
         </div>
-        
 
+
+        
 
     </div>
   )
