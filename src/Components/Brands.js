@@ -18,7 +18,7 @@ export const Brands = () => {
 
             <div className='card__body'>
                 <span>
-                    We Provides services for All Brands
+                    We Provides Services For All Brands
                 </span>
                 <span>
                     <p class='ui tiny images'>
@@ -53,7 +53,7 @@ export const Brands = () => {
             
 
             <div className='quality'>
-                Quality Assured Services Doorstep repair within 30 mins
+                Quality Assured Services Doorstep Repair Within 30 Minutes
             </div>
 
             <div>
