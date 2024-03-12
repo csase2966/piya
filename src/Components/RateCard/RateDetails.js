@@ -164,9 +164,9 @@ export const RateDetails = () => {
   return (
     <div className='all_details_card'>
         {/* <div className='rate_title'></div> */}
-        <div className='types'>
+        <h1 className='types'>
             AC
-        </div>
+        </h1>
 
         <div className='rate_title'>
             <div onClick={onClickButton1} className='btn_ser_rate'>
@@ -252,9 +252,9 @@ export const RateDetails = () => {
             </div>
         </div>
 
-        <div className='types'>
+        <h1 className='types'>
             Fridge / Refrigerator
-        </div>
+        </h1>
 
 
         <div className='rate_title'>

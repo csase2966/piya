@@ -47,7 +47,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton1} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>AC Repair</b>
+                            <h1 className='title_choose_ser'>AC Repair</h1>
                         </button>
                         <div>
                             {openInc1 ? <MoreDetailsACRepair/> : ""}
@@ -65,7 +65,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton2} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>AC Installation</b>
+                            <h1 className='title_choose_ser'>AC Installation</h1>
                         </button>
                         <div>
                             {openInc2 ? <MoreACInstall/> : ""}
@@ -82,7 +82,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton3} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>AC Servicing</b>
+                            <h1 className='title_choose_ser'>AC Servicing</h1>
                         </button>
                         <div>
                             {openInc3 ? <MoreACServices/> : ""}
@@ -98,7 +98,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton4} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>Gas Charging</b>
+                            <h1 className='title_choose_ser'>Gas Charging</h1>
                         </button>
                         <div>
                             {openInc4 ? <MoreGasCharge/> : ""}
@@ -114,7 +114,7 @@ export const Services = () => {
                     <div className='include_ser'>
                         <button onClick={onClickButton5} className='btn_ser'>
                             <i className='caret down icon'></i>
-                            <b className='title_choose_ser'>Refrigerator Repair</b>
+                            <h1 className='title_choose_ser'>Refrigerator Repair</h1>
                         </button>
                         <div>
                             {openInc5 ? <MoreRefRepair/> : ""}
