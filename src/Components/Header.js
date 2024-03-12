@@ -42,9 +42,18 @@ const Header=()=> {
                 <div className="title_name">Eagle Refrigeration, Pune</div>
                 </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
+                    {menuOpen ? 
+                    
+                    <span style={{color:"#008A00",fontsize:"11pt"}}>    </span>
+                    : 
+                    <div className="menu">
                     <span ></span>
                     <span ></span>
                     <span ></span>
+                    </div>
+                    
+                    }
+                    
                 </div>
 
                 <ul className={menuOpen ? "open" : ""}>

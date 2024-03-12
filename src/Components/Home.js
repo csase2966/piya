@@ -25,7 +25,7 @@ export const Home=()=> {
 
         <div class='container'>
             <div className='first_name'>
-                Eagle Refrigeration
+                Eagle Refrigeration & AC
             </div>
 
         
